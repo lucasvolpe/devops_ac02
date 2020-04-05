@@ -4,7 +4,7 @@ python:
 
 before_install:
         - python --version
-        - pip install -u pip
+        - pip install -u
         - pip install codecov
 
 scrip:
