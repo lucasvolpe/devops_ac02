@@ -1,10 +1,10 @@
 language: python
 python:
-        - 3.6
+        - 3.7
 
 before_install:
         - python --version
-        - pip install -u
+        - pip install -U pip
         - pip install codecov
 
 scrip:
